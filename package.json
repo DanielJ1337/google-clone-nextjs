@@ -1,20 +1,25 @@
 {
-  "name": "google-clone-nextjs",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@heroicons/react": "^1.0.4",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
-  }
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "name": "google-clone-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DanielJ1337/google-clone-nextjs.git",
+  "author": "Daniel Juergens <djuergens561@gmail.com>",
+  "license": "MIT"
 }
